@@ -105,12 +105,17 @@ SQLite file is created automatically on first run inside *Todo.Web.Api/bin/…*.
 1. Create two Web Apps: **todo-api** & **todo-web**  
 2. Set *todo-web* configuration → `WEB_API_URL=https://todo-api.azurewebsites.net/`  
 3. `git push azure main` (or deploy from GitHub Actions).  
-4. Done – live demo ready for evaluation 🚀
+4. Done🚀
+![image](https://github.com/user-attachments/assets/d5f848ba-558a-460c-beea-dac2b431103b)
+![image](https://github.com/user-attachments/assets/11ecd10f-bd0d-44b7-8a34-a8c9fe1ef58e)
+![image](https://github.com/user-attachments/assets/a00a79c1-dc51-441f-8b8c-55383036607e)
+![image](https://github.com/user-attachments/assets/129a47c4-1a77-4d66-a6f7-6362acf05cb6)
+![image](https://github.com/user-attachments/assets/0d037391-1da7-4bd1-8051-c3e15cb30c5c)
 
 ---
 
 ## 👏 Credits
 
-Code skeleton by **@YourTeacher** during class. Todo‑Lists & Todo‑Tasks modules – implemented by **@<your‑name>** (2025).
+Code skeleton by **@ivelingv** during class. Todo‑Lists & Todo‑Tasks modules – implemented by **@VladosNasos** (2025).
 
 Licensed under the MIT License.
