@@ -1,0 +1,18 @@
+@model Todo.Web.Clients.Models.TodoListModel
+@{ ViewData["Title"] = "Delete List"; }
+
+<div class="row justify-content-center">
+    <div class="col-md-8 col-xl-6">
+        <div class="alert alert-danger shadow-sm p-4">
+            <h4 class="alert-heading">Delete list</h4>
+            <p class="mb-4">Are you sure you want to remove <strong>@Model.Description</strong>?</p>
+
+            <form asp-action="DeleteConfirmed" asp-route-id="@Model.Id" method="post" class="d-flex gap-2">
+                <button class="btn btn-danger flex-grow-1">
+                    <i class="bi bi-trash me-1"></i> Delete
+                </button>
+                <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>
